@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body {
+	color: white;
+	font-family: 'BenchNine', sans-serif;
+}
+
+.home-box {
+	background-color: #696767;
+	color: white;
+	font-size: 16px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+.what-box {
+	background-color: #B3AF53;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.info-box {
+	background-color: #440E62;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.footer {
+	background-color: #12133F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+span {
+	font-family: 'Pacifico', cursive;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+h2 {
+	color: #12133F;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+.info-head {
+	color: #B3AF53;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 30px;
+}
+
+.info-top {
+	padding-top: 5px;
+}
+
+i fa fa-photo fa-lg {
+	color: #B3AF53;
+	padding-right: 10px;
+}
+
+.info-top {
+}
+
+.col-xs-12 .info-head .fa.fa-photo.fa-lg {
+}
+
+.fa.fa-photo.fa-lg {
+	padding-right: 11px;
+	padding-top: 0px;
+}
+
+.what-paragraph {
+	color: #12133F;
+}
+
+.fa.fa-keyboard-o.fa-lg {
+	padding-right: 11px;
+}
+
+.fa.fa-check-square-o.fa-lg {
+	padding-right: 11px;
+}
+
+.info-top {
+	padding-top: 2px;
+	margin-top: 15px;
+}
+
+
+
+li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.fa-instagram {
+	color: #F16C4F;
+	padding-right: 20px;
+}
+
+.fa-twitter {
+	color: #F16C4F;
+	padding-right: 20px;
+}
+
+.fa-facebook-square {
+	color: #F16C4F;
+	
+}
