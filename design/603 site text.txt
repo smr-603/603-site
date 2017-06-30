@@ -1,0 +1,64 @@
+Purple - #440e62 
+Gina blue #12133f 
+Green #b3af53 
+Orange #f26c4f
+
+Font awesome codes
+Instagram  fa-instagram
+Facebook.  fa-facebook-f 
+Twitter. fa-twitter
+Phone  fa-phone
+Email. fa-envelope-o
+Map marker.  fa-location-arrow
+
+
+In <head>
+
+<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+CSS
+	.	font-family: 'BenchNine', sans-serif;
+	.	font-family: 'Pacifico', cursive;
+
+
+[meta description]
+603 Website Design has the skills you need to get found faster with a responsive website that lets you reach your clients on the go and in the office; at home or on the road!
+
+[home]
+Creative. Responsive. Fabulous.
+Need a website makeover?
+603 Website Design has the skills you need to get found faster with a responsive website that lets you reach your clients on the go and in the office; at home or on the road!
+
+[what]
+Anywhere, anytime on any device!
+
+[image alt text]
+603 Website Design logo displayed responsively on all devices.
+
+Passion about website design and creation is something we take very seriously. We are committed to keeping up with the ever changing technological landscape of today. We want you to reach your audience anywhere, anytime and on any device. 
+
+[info]
+Creative Design
+We love what we do here at 603 Website Design. You can see it in our work. We can’t wait to work with you and create an awesome site!
+
+
+Web Development
+Not only are we creative, but we love coding too! We have the skill set and the an eye for design to help your site be everything you want it to be.
+
+High Quality
+We stand behind every site we create. We will work with you to make sure you are satisfied and happy with your newly designed website.
+
+
+
+[contact]
+603 | Website Design
+603.702.2839
+P.O. Box 55 Kingston, NH 03848
+
+
+
+***** [about page]
+We’re kind of a rare breed here at 603 website design. We design and develop your websites so you get exactly what you want. Passion about website design and creation is something we take very seriously. We are committed to keeping up with the ever changing technological landscape of today. We want you to reach your customers anywhere, any time on any device. 
+
+603 website design combines responsive design with stunning creative appeal to make your website everything you want it to be. We are dedicated to quality and great customer service to answer all of your questions. We are efficient and on time with superb quality to help keep your business running smoothly. 

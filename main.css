@@ -6,33 +6,34 @@ body {
 
 .home-box {
 	background-color: #696767;
+	background-image: url(img/frontYardG.png);
+	background-size: cover;
 	color: white;
 	font-size: 16px;
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	text-align: left;
-	background-image: url(img/frontYardG.png);
-	background-size: cover;
 }
 
 .what-box {
 	background-color: #B3AF53;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
 .info-box {
 	background-color: #440E62;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	display: flex;
+	padding-bottom: 25px;
+	padding-top: 25px;
 	text-align: center;
 }
 
 .footer {
 	background-color: #12133F;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
 	text-align: center;
 }
 
@@ -45,9 +46,11 @@ h1 {
 }
 
 span {
+	color: #FFFFFF;
 	font-family: 'Pacifico', cursive;
 	font-size: 28px;
 	font-weight: lighter;
+	text-shadow: 2px 2px 7px #434343;
 }
 
 h2 {
@@ -55,10 +58,15 @@ h2 {
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
 }
+
+h3 {
+	font-size: 30px;
+}
 .info-head {
-	color: #B3AF53;
+	color: #F16C4F;
 	font-family: 'BenchNine', sans-serif;
 	font-size: 30px;
+	padding-bottom: 10px;
 }
 
 .info-top {
@@ -72,12 +80,6 @@ i fa fa-photo fa-lg {
 	padding-right: 10px;
 }
 
-.info-top {
-}
-
-.col-xs-12 .info-head .fa.fa-photo.fa-lg {
-}
-
 .fa.fa-photo.fa-lg {
 	padding-right: 11px;
 	padding-top: 0px;
@@ -85,6 +87,7 @@ i fa fa-photo fa-lg {
 
 .what-paragraph {
 	color: #12133F;
+	
 }
 
 .fa.fa-keyboard-o.fa-lg {
@@ -96,11 +99,15 @@ i fa fa-photo fa-lg {
 }
 
 .info-top {
-	padding-top: 2px;
 	margin-top: 15px;
+	padding-top: 2px;
 }
 
 
+
+a {
+	color: #B3AF53;
+}
 
 li {
 	display: inline;
@@ -115,10 +122,6 @@ li {
 	padding-right: 20px;
 }
 
-.fa-facebook-square {
-	
-	
-}
 
 
 /** NAV BAR STYLING **/
@@ -131,25 +134,50 @@ li {
 .navbar-brand {
 	color: #FFFFFF;
 }
+
+.nav.navbar-nav.navbar-right li a  {
+	color: #FFFFFF;
+}
+
 .nav.navbar-nav.navbar-right li a:link  {
 	color: #FFFFFF;
 }
+
 .nav.navbar-nav.navbar-right li a:hover  {
 	color: #F16C4F;
 }
-.nav.navbar-nav.navbar-right li a {
+
+.nav.navbar-nav.navbar-right li s:visited {
+	color: #F16C4F;
+}
+
+.nav.navbar-nav.navbar-right li a:active {
+	color: #B3AF53;
 }
 
 
 
 /* MOBILE VIEW */
 @media (max-width: 767px){
-.nav.navbar-nav.navbar-right {
-	text-align: center;
+	.nav.navbar-nav.navbar-right {
+		text-align: center;
 	}
 
-.nav.navbar-nav.navbar-right li {
-	font-size: 20px;
+	.nav.navbar-nav.navbar-right li {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}	
+	
+	.what-paragraph {
+		padding-top: 10px;
+	}
+
+	p br {
+		display: none;
 	}
 
 }
@@ -157,51 +185,93 @@ li {
 
 /* TABLET VIEW */
 @media (min-width: 768px) and (max-width: 991px){
+	h2 {
+		color: #12133F;
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+	
+	p {
+		font-size: 20px;
+	}
+	
+	.device-img-tablet {
+		float: left;
+		padding-top: 0px;
+	}	
 }
 
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) and (max-width: 1199px){
-h1 {
-	font-size: 40px;
-}
+	h1 {
+		font-size: 40px;
+	}
 
-span {
-	font-family: 'Pacifico', cursive;
-	font-size: 35px;
-	font-weight: lighter;
-}
-h2 {
-	color: #12133F;
-	font-family: 'Pacifico', cursive;
-	font-size: 30px;
-}
-p {
-	font-size: 25px;
-}
-
+	span {
+		font-family: 'Pacifico', cursive;
+		font-size: 35px;
+		font-weight: lighter;
+	}
+	
+	h2 {
+		color: #12133F;
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+	
+	p {
+		font-size: 25px;
+	}
+	
+	.what-paragraph {
+		padding-top: 10px;
+	}
 }
 
 
 
 /* JUMBOTRON VIEW */
 @media (min-width: 1200px){
-h1 {
-	font-size: 40px;
-}
-
-span {
-	font-family: 'Pacifico', cursive;
-	font-size: 35px;
-	font-weight: lighter;
-}
-h2 {
-	color: #12133F;
-	font-family: 'Pacifico', cursive;
-	font-size: 30px;
-}
-p {
-	font-size: 25px;
-}
 	
+	h1 {
+		font-size: 40px;
+	}
+
+	span {
+		font-family: 'Pacifico', cursive;
+		font-size: 35px;
+		font-weight: lighter;
+	}
+	
+	h2 {
+		color: #12133F;
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+	
+	p {
+		font-size: 25px;
+	}
+
+	.home-box {
+		text-align: left;
+	}
+	
+	.what-paragraph {
+		padding-top: 10px;
+	}	
+
+	.about-section {
+		display: inline-flex;
+		justify-content: space-around;
+	}
+
+	.creative-text {
+		padding-top: 5px;
+		margin-top: 15px;
+	}
 }
